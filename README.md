@@ -51,7 +51,7 @@ The extension includes license management and usage-related code that can make e
 
 ## Website
 
-[Leafpad Spell Check](https://libandreas.github.io/spell-check/)
+[Leafpad Spell Check](https://libandreas.github.io/leadpad/)
 
 The website currently contains a test section while the product page is being prepared.
 
