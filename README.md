@@ -62,3 +62,9 @@ This repository contains the public website and project overview. The browser ex
 - `index.html`: the main page.
 - `web/`: shared styling, navigation scripts, the English and Greek page content, and the product icon.
 - `README.md`: project overview.
+
+## Website languages
+
+- `index.html`: English page.
+- `index-el.html`: separate, hand-written Greek page.
+- `web/`: supporting styles, scripts and assets.
