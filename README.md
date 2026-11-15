@@ -53,7 +53,7 @@ The extension includes license management and usage-related code that can make e
 
 [Leafpad Spell Check](https://libandreas.github.io/leadpad/)
 
-The website currently contains a test section while the product page is being prepared.
+The website presents spelling, translation, speech and image text recognition features in English and Greek.
 
 ## About this repository
 
