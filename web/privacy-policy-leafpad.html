@@ -45,48 +45,42 @@
 			<article class="html">
 <p>This policy explains how Leafpad, developed by Andreas Express (libandreas), handles your information when you use the browser extension.</p>
 <p>Last updated: 16 November 2026.</p>
-<h2>Overview</h2>
-<p>Leafpad helps you check spelling, translate text, listen to text, dictate, and extract text from a screen capture. Spelling checks, translation, and image text recognition run on your device. Voice features use services provided through your browser, which may work online or offline depending on the browser, operating system, language, and available service, as explained below.</p>
+<h2>Your text</h2>
+<p>Leafpad helps you check spelling, translate, listen to text, dictate, and read text from images. Spelling, translation, and image text recognition happen on your device. Voice features use your browser or operating system's services, as explained below.</p>
 <p>We do not sell your information, share it with advertisers, or use your text, images, or voice to train our own AI models. Leafpad does not require an account with us.</p>
 <h2>Information the app uses</h2>
-<p>Depending on the features you use, Leafpad works with:</p>
-<ul>
-<li>Text you select or type in supported web page fields, surrounding words needed for spelling suggestions, and the resulting corrections or translations</li>
-<li>The latest selection's text and formatting, page or frame address, selection position, field details, and time, to restore the selection and insert results in the right place</li>
-<li>A screen, window, or tab capture you explicitly allow, the area you choose for text recognition, and the extracted text</li>
-<li>Microphone audio when you start dictation and allow microphone access, and the resulting transcript</li>
-<li>Your language and toolbar settings, license key and status, and counters used to manage access to free and paid features</li>
-</ul>
-<p>The extension runs on supported web pages and frames so its tools can work where you write or select text. Selection and editing information may be saved as you interact with a page, before you choose a toolbar action. It is used for these tools, not to build an advertising profile or a full browsing-history record. Recognized password and certain other sensitive fields are excluded from selection tracking, but ordinary text fields may still contain personal information.</p>
+<p>Leafpad works with text you select or type, surrounding words, corrections, translations, screen captures you allow, and audio when you start dictation. It also uses your settings, license information, and feature-access counters.</p>
+<p>To restore selections and insert results, the app may save the latest selected text and formatting, page or frame address, field details, selection position, and time.</p>
+<p>The app works on supported pages and frames. It may save selection information as you interact with a page, before you choose a tool. This supports its features, not advertising or browsing-history tracking. Recognized password and certain other sensitive fields are excluded, but ordinary text fields may contain personal information.</p>
 <h2>Spelling and translation</h2>
-<p>Spelling checks use dictionaries and algorithms included with Leafpad. Context-aware checks for English and Greek consider surrounding words on your device. Your text is not sent to us or an online spelling service.</p>
-<p>Translation uses Chrome's on-device Translator API. Chrome may first download the necessary language models. Once available, those models translate your text locally; Leafpad does not send the text to our servers or a separate online translation service.</p>
+<p>Spelling checks happen on your device. English and Greek also use surrounding words to suggest corrections. Your text is not sent to us or an online spelling service.</p>
+<p>Translation uses models built into your browser. The browser may first download the files needed for your languages. Your text is translated locally, without being sent to us or a separate online translation service.</p>
 <h2>Reading text from images</h2>
-<p>When you choose Extract Text, the browser asks which screen, window, or tab you want to share. Leafpad captures an image, stops the capture stream, and lets you select an area. Tesseract and its bundled language files recognize the text locally. The image and extracted text are not uploaded to us.</p>
+<p>When you choose Extract Text, you allow a screen, window, or tab capture and select an area to read. The capture stream stops after the image is taken. Text recognition happens on your device. Images and extracted text are not uploaded to us.</p>
 <p>The capture is briefly held in browser session storage and removed from that storage when the recognition page reads it. The open page holds a working copy until it is closed. A capture that has not been read can remain in session storage until the browser session ends. Extracted text is copied to your clipboard. Your device or clipboard-sync service controls any clipboard history or syncing.</p>
 <h2>Voice and microphone</h2>
-<p>Listening passes selected text, or its local translation, to speech services provided through your browser. These may work online or offline: local voices process text on your device, while an online voice service receives the text needed to read it aloud. Leafpad uses the browser's default voice for the language; the browser and operating system determine which service is available.</p>
-<p>Dictation starts when you choose the voice tool and allow microphone access. Speech recognition is provided by your browser through online or offline services, depending on its capabilities and language support. Leafpad does not provide its own speech recognition service or require local processing. When the browser uses an online service, audio is sent to that provider for transcription; in Chrome, this may be Google's speech service.</p>
+<p>Listening uses speech services provided through your browser. Local voices process text on your device. Online voices receive the text they read aloud. Leafpad uses the default voice for the language, which may be local or online.</p>
+<p>The microphone is used when you start dictation and allow access. Your browser may process speech locally or send audio to an online recognition service, such as Google. Leafpad does not require local processing.</p>
 <p>We do not receive or store voice recordings on our servers. Google or another speech provider selected by your browser or operating system handles any text or audio it receives under its own privacy policy. You can avoid these transfers by not using the voice features, and revoke microphone permission in your browser.</p>
 <h2>Browser storage</h2>
-<p>Leafpad saves preferences, your license key and license-check status, and feature-access counters in Chrome storage. These settings use Chrome's sync storage and may be synchronized through your Google account according to your Chrome settings. We do not operate a synchronization server.</p>
-<p>Selection backups, including selected text or formatting and the associated page or frame address, use local browser storage rather than Chrome sync. They support restoring focus and inserting results across page frames. The most recent records may remain after a tab closes until replaced or cleared. Browser storage may also hold local dictionaries, OCR resources, and app notices.</p>
+<p>Leafpad saves your settings, license key and status, and feature-access counters in browser storage. These use Chrome sync and may sync through your Google account, depending on your browser settings. We do not run a syncing service.</p>
+<p>Selection backups, including text, formatting, and page addresses, stay in local browser storage rather than Chrome sync. They help restore selections across page frames and may remain after a tab closes until replaced or cleared. The browser may also store dictionaries, recognition resources, and notices.</p>
 <p>Text you insert into a website becomes part of that website's content and is handled under its own privacy practices.</p>
 <h2>Checking your license</h2>
 <p>If you enter a Gumroad license, Leafpad sends the license key and product identifier directly to Gumroad over HTTPS to verify access. Gumroad may return the purchase email, which is shown with the license status. Verification does not include your selected text, page contents, screen captures, or microphone audio. Signed licenses can instead be verified locally.</p>
 <p>Gumroad receives connection information such as your IP address. Purchases and license information are handled under <a href="https://gumroad.com/privacy">Gumroad's privacy policy</a>. Payment details you enter at checkout go to Gumroad and its payment providers, not to Leafpad.</p>
-<h2>Usage information and external services</h2>
+<h2>Usage information</h2>
 <p>The extension does not send usage analytics, selected text, page addresses, or error reports to our servers. Its feature-access counters are stored in the browser and may sync as described above. Errors may appear in the app or the browser's local developer console.</p>
 <p>Google provides Chrome's synchronization, language-model downloads, and, where used, browser speech services under <a href="https://policies.google.com/privacy">Google's privacy policy</a>. A different system speech provider may apply its own policy. The Chrome Web Store may also provide installation and store-performance statistics under Google's policies.</p>
 <h2>Protecting your information</h2>
-<p>Leafpad's use of user information, including information received through Google APIs, complies with the Chrome Web Store User Data Policy and its Limited Use requirements. We use information only to provide or improve the extension's stated purpose and related security and reliability. We do not use it for personalized advertising, data brokerage, or credit decisions.</p>
+<p>Leafpad follows the Chrome Web Store User Data Policy, including its Limited Use requirements. This includes information received through Google APIs. We use information only to provide and improve the app's stated features and maintain their security and reliability. We do not use it for personalized advertising, data brokerage, or credit decisions.</p>
 <p>We share information only as described for the features you use, where necessary for security, or when required by law. We do not allow people to read your content unless you explicitly agree to share particular information for support, access is necessary for security, or the law requires it.</p>
 <p>License verification uses HTTPS. Local data relies on your browser's storage and device security. Protect your browser profile and review the permissions you grant to websites and extensions.</p>
-<h2>Keeping and deleting your information</h2>
+<h2>Removing your information</h2>
 <p>You can remove your saved license key in the extension settings. Clear the extension's browser storage or uninstall it to remove its stored settings and selection backups. Manage synced copies through Chrome's sync settings. Close the text-recognition page to release its working image, and clear your clipboard history separately if needed. Browser-managed translation models and speech resources are managed by Chrome or your operating system.</p>
 <p>Removing Leafpad does not delete text you inserted into a website, copied elsewhere, or information already held by Gumroad, Google, or another provider. Use that service's controls or contact it to request deletion. If you send us a support message, we use the information you provide to respond and resolve the request; contact us to request its deletion, subject to any legal retention requirements.</p>
 <h2>Changes to this policy</h2>
-<p>We may update this policy when Leafpad or its data practices change. The date above identifies the latest revision.</p>
+<p>We may update this policy when the app or the way it handles information changes.</p>
 <h2>Contact</h2>
 <p>For privacy questions or requests, contact the developer by email or use the <a href="https://ceres-assistant.com/web/contact.php">contact form</a>.</p>
 <p><img src="privacy-email.png" alt="Developer contact email" style="display: inline-block; max-width: 100%; height: auto; vertical-align: middle;"></p>
