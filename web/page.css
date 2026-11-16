@@ -14,3 +14,13 @@
 .leafpad-languages .home-model-pill img{width:32px;height:24px;object-fit:contain;border-radius:3px}
 .leafpad-languages .home-models-marquee:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
 @media(prefers-reduced-motion:reduce){.leafpad-languages .home-models-marquee{overflow-x:auto;mask-image:none}.leafpad-languages .home-models-track{animation:none}.leafpad-languages .language-group[aria-hidden]{display:none}}
+
+/* Installation layout shared with Luna. */
+.product-install-options{display: flex; align-items: flex-start; justify-content: center; gap: 1rem;}
+.product-install-option{display: grid; justify-items: center; gap: 0.9rem;}
+.product-intro-simple-platforms{padding: 0px; border: 0px; background: transparent;}
+.product-intro-simple-platforms .download-icons{display: flex; align-items: center; justify-content: center; gap: 0.9rem;}
+.product-intro-simple-platforms .download-icons img{width: 26px; height: 26px;}
+.product-intro-simple-platforms .download-icons i{font-size: 1.45rem;}
+.product-intro-simple-platforms{display: flex; width: 100%; min-width: 0px; justify-content: center;}
+.product-intro-simple-platforms .download-icons{width: 100%; min-width: 0px; flex-wrap: wrap; justify-content: center;}
