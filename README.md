@@ -51,7 +51,7 @@ The extension includes license management and usage-related code that can make e
 
 ## Website
 
-[Leafpad Spell Check](https://libandreas.github.io/leadpad/)
+[Leafpad Spell Check](https://libandreas.github.io/leafpad/)
 
 The website presents spelling, translation, speech and image text recognition features in English and Greek.
 
