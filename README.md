@@ -1,6 +1,6 @@
-﻿# Leafpad: Spell Check, Translate & Speech
+﻿# Offline Grammar Check & Translate / Speak Leaf
 
-Leafpad helps you check spelling, correct selected text, translate, listen to text, and dictate while working on websites. Select text on a page to use its floating toolbar, or open the extension's popup for settings and text extraction.
+Speak Leaf checks spelling offline in your browser and uses surrounding words to suggest corrections in English and Greek. You can also translate selected text, listen to it aloud or dictate. Select text on a page to use its floating toolbar, or open the extension's popup for settings and text extraction.
 
 ## Main features
 
@@ -23,7 +23,7 @@ Open the extension popup to change the default language, manage the floating too
 
 ## Spelling engines
 
-Leafpad uses different local spelling engines for different languages:
+Speak Leaf uses different local spelling engines for different languages:
 
 | Language | Engine |
 | --- | --- |
@@ -39,7 +39,7 @@ The language choices available for OCR and translation are separate from the lis
 
 Translation uses Chrome's on-device Translator API when it is available for the selected languages. Availability depends on the browser, device, and installed language resources.
 
-Leafpad also provides text-to-speech and speech input. Browser support and the way speech is processed depend on the available speech service; offline spelling does not mean that every speech feature works offline.
+Speak Leaf also provides text-to-speech and speech input. Browser support and the way speech is processed depend on the available speech service; offline spelling does not mean that every speech feature works offline.
 
 OCR uses Tesseract to recognize text in images. Recognition quality depends on the image and the selected language.
 
@@ -51,7 +51,7 @@ The extension includes license management and usage-related code that can make e
 
 ## Website
 
-[Leafpad Spell Check](https://libandreas.github.io/leafpad/)
+[Speak Leaf](https://libandreas.github.io/speak-leaf/)
 
 The website presents spelling, translation, speech and image text recognition features in English and Greek.
 
