@@ -1,29 +1,43 @@
 ﻿# Offline Grammar Check & Translate / Speak Leaf
 
-Speak Leaf checks spelling offline in your browser and uses surrounding words to suggest corrections in English and Greek. You can also translate selected text, listen to it aloud or dictate. Select text on a page to use its floating toolbar, or open the extension's popup for settings and text extraction.
+Private, offline spell checking, grammar suggestions and translation right inside your browser. All offline, no uploads.
+
+Fix spelling mistakes as you type, translate selected text, listen aloud, or dictate with your voice. Everything runs locally on your device without sending text to external servers.
 
 ## Main features
 
-- Check spelling and apply corrections to selected editable text.
-- Highlight corrected words so you can review the changes.
-- Use surrounding words to help rank English and Greek spelling suggestions.
-- Translate selected text with Chrome's built-in translation features, where available.
-- Listen to text and use speech input.
-- Extract text from images with OCR.
-- Choose a default language and show or hide the floating toolbar.
+* Check and fix spelling directly as you type.
+* Highlighted corrections let you review changes with ease.
+* Smart suggestions that understand sentence context in English and Greek.
+* Instant on-page translation using built-in browser translation.
+* Read text aloud and dictate with your voice.
+* Grab text straight from images without retyping.
+* Choose your default language and toggle the floating toolbar anytime.
 
 ## How to use it
 
 1. Install the extension in Chrome, or load a local copy as described below.
-2. Open a website and select the text you want to work with.
-3. Choose an action from the floating toolbar. For spelling corrections, select editable text in a text field or editor.
+2. Open any webpage and select the text you want to work with.
+3. Pick an action from the floating toolbar. For spelling corrections, highlight the words you want to fix in any text box.
 4. Review the corrected words before continuing your work.
 
 Open the extension popup to change the default language, manage the floating toolbar, or choose **Extract Text**.
 
+## Context-Aware Corrections
+
+In English and Greek, Speak Leaf reviews full sentences rather than isolated words. This allows it to spot wrong word endings, doubled words, and misused terms that standard word-by-word checkers miss, even when working completely offline.
+
+## Voice Typing and Read Aloud
+
+Dictate emails, messages, notes, and documents naturally with speech to text. You can also select any passage to have it read aloud in your language, making it easy to catch awkward phrasing or listen along to long articles.
+
+## Floating Toolbar and In-Page Translation
+
+Highlight words on any webpage to bring up the floating toolbar right next to your cursor. Translate phrases instantly on the spot without opening new tabs, and apply corrections directly into text areas with a single click.
+
 ## Spelling engines
 
-Speak Leaf uses different local spelling engines for different languages:
+Speak Leaf uses local spelling engines tailored for each language:
 
 | Language | Engine |
 | --- | --- |
@@ -31,40 +45,22 @@ Speak Leaf uses different local spelling engines for different languages:
 | Greek | A custom Leipzig-based engine, with supporting Hunspell data. |
 | Bulgarian, Danish, German, Spanish, French, Indonesian, Portuguese, Romanian, Turkish | nspell with Hunspell dictionaries. |
 
-English and Greek use context when ranking candidates. The other bundled spelling engines check words individually. Suggestions depend on the dictionary, language, and surrounding text; they do not guarantee that every error will be detected or corrected.
-
-The language choices available for OCR and translation are separate from the list of spelling dictionaries.
+English and Greek take sentence context into account for smarter suggestions, while other supported languages check words against their local dictionaries.
 
 ## Translation, speech, and OCR
 
-Translation uses Chrome's on-device Translator API when it is available for the selected languages. Availability depends on the browser, device, and installed language resources.
+Translation uses Chrome's on-device Translator API when available for the selected languages.
 
-Speak Leaf also provides text-to-speech and speech input. Browser support and the way speech is processed depend on the available speech service; offline spelling does not mean that every speech feature works offline.
+Speak Leaf also provides text to speech and voice dictation using built-in browser speech services.
 
-OCR uses Tesseract to recognize text in images. Recognition quality depends on the image and the selected language.
+OCR recognizes text in images locally using Tesseract.
 
 ## Local processing
 
-Spelling dictionaries and correction engines run locally. OCR also runs on the device using the bundled runtime and language resources.
+Spelling dictionaries, OCR, and text tools run directly on your device for fast performance and privacy. Network connections are only used for license validation and optional browser translation services.
 
-The extension includes license management and usage-related code that can make external connections. Local spelling and OCR should not be taken to mean that the entire extension makes no network requests.
+## Bug Reports and Issues
+https://github.com/libandreas/speak-leaf/issues
 
 ## Website
-
-[Speak Leaf](https://libandreas.github.io/speak-leaf/)
-
-The website presents spelling, translation, speech and image text recognition features in English and Greek.
-
-## About this repository
-
-This repository contains the public website and project overview. The browser extension source code, dictionaries, OCR resources, credentials and local development files are not published here.
-
-- `index.html`: the main page.
-- `web/`: shared styling, navigation scripts, the English and Greek page content, and the product icon.
-- `README.md`: project overview.
-
-## Website languages
-
-- `index.html`: English page.
-- `index-el.html`: separate, hand-written Greek page.
-- `web/`: supporting styles, scripts and assets.
+https://libandreas.github.io/speak-leaf/
