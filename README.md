@@ -1,4 +1,4 @@
-﻿# Offline Grammar Check & Translate / Speak Leaf
+﻿# Offline Grammar Check & Translate / Image Reader
 
 Private, offline spell checking, grammar suggestions and translation right inside your browser. All offline, no uploads.
 
@@ -25,7 +25,7 @@ Open the extension popup to change the default language, manage the floating too
 
 ## Context-Aware Corrections
 
-In English and Greek, Speak Leaf reviews full sentences rather than isolated words. This allows it to spot wrong word endings, doubled words, and misused terms that standard word-by-word checkers miss, even when working completely offline.
+In English and Greek, Image Reader reviews full sentences rather than isolated words. This allows it to spot wrong word endings, doubled words, and misused terms that standard word-by-word checkers miss, even when working completely offline.
 
 ## Voice Typing and Read Aloud
 
@@ -37,7 +37,7 @@ Highlight words on any webpage to bring up the floating toolbar right next to yo
 
 ## Spelling engines
 
-Speak Leaf uses local spelling engines tailored for each language:
+Image Reader uses local spelling engines tailored for each language:
 
 | Language | Engine |
 | --- | --- |
@@ -51,7 +51,7 @@ English and Greek take sentence context into account for smarter suggestions, wh
 
 Translation uses Chrome's on-device Translator API when available for the selected languages.
 
-Speak Leaf also provides text to speech and voice dictation using built-in browser speech services.
+Image Reader also provides text to speech and voice dictation using built-in browser speech services.
 
 OCR recognizes text in images locally using Tesseract.
 
@@ -60,7 +60,7 @@ OCR recognizes text in images locally using Tesseract.
 Spelling dictionaries, OCR, and text tools run directly on your device for fast performance and privacy. Network connections are only used for license validation and optional browser translation services.
 
 ## Bug Reports and Issues
-https://github.com/libandreas/speak-leaf/issues
+https://github.com/libandreas/image-reader-ocr/issues
 
 ## Website
-https://libandreas.github.io/speak-leaf/
+https://libandreas.github.io/image-reader-ocr/
