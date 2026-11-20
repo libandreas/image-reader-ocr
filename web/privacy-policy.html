@@ -25,7 +25,7 @@
 			<div class="dropdown-menu">
 <a href="https://ceres-assistant.com/ceres-browser/"><strong>Ceres Browser Assistant</strong></a>
 <a href="https://ceres-assistant.com/ceres-ide/"><strong>Ceres Coding Assistant</strong></a>
-<a href="https://libandreas.github.io/luna-crop/"><strong>Luna Image Editor</strong></a>
+<a href="https://ceres-assistant.com/luna-crop/"><strong>Luna Image Editor</strong></a>
 <a href="https://libandreas.github.io/whirlpool/"><strong>Whirlpool Document Search</strong></a>
 <a href="../"><strong>OCR Image Reader</strong></a>
 </div>
@@ -48,6 +48,13 @@
 <h2>Overview</h2>
 <p>When you choose Extract Text, Chrome asks you to select and share a tab, window or screen. OCR Image Reader takes a still image of that source and stops the capture stream. The image may include personal information visible in the source you selected, including areas outside the region you later choose for recognition.</p>
 <p>You then select an area to read. Image recognition runs locally on your device using resources included with the extension. Screen images and recognized text are not uploaded to us or an online OCR service. The extension does not monitor browsing activity or record microphone audio.</p>
+<h2>Information the app uses</h2>
+<ul>
+	<li>A screenshot of the tab, window, or screen you choose to share</li>
+	<li>A temporary window identifier used to open the recognition page</li>
+	<li>The area you select and the text recognized in that area</li>
+</ul>
+<p>OCR Image Reader processes all of this information on your device. It copies the result to your clipboard. If you have enabled clipboard sync, your device may copy that text to your other devices.</p>
 <h2>Temporary storage and clipboard</h2>
 <p>The screenshot and a browser window identifier are held temporarily in browser session storage to open the recognition page. That page removes the stored capture when it reads it and keeps a working copy while open. An unread capture can remain until the browser session ends.</p>
 <p>Recognized text is written automatically to your clipboard. OCR Image Reader does not read your existing clipboard contents or keep a history of recognized text. Clipboard history and synchronization are controlled by your device and services you enable.</p>
@@ -84,7 +91,7 @@
             <h4>Products</h4>
 <a href="https://ceres-assistant.com/ceres-browser/">Ceres Browser Assistant</a>
 <a href="https://ceres-assistant.com/ceres-ide/">Ceres Coding Assistant</a>
-<a href="https://libandreas.github.io/luna-crop/">Luna Image Editor</a>
+<a href="https://ceres-assistant.com/luna-crop/">Luna Image Editor</a>
 <a href="https://libandreas.github.io/whirlpool/">Whirlpool Document Search</a>
 <a href="../">OCR Image Reader</a>
 </div>
